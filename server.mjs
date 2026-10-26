@@ -12,6 +12,7 @@ const stateFile = join(dataDir, "state.json");
 const port = Number(process.env.PORT || 4312);
 
 const types = {
+  ".mjs": "text/javascript; charset=utf-8",
   ".html": "text/html; charset=utf-8",
   ".css": "text/css; charset=utf-8",
   ".js": "text/javascript; charset=utf-8",

@@ -14,6 +14,11 @@
   --sidebar: 248px;
   font-family: "Segoe UI", "Microsoft YaHei UI", system-ui, sans-serif;
 }
+.lesson { margin: 20px 0; padding: 16px; background: #f4f7f4; border-left: 3px solid var(--accent); line-height: 1.7; }
+.lesson h3 { font-size: 14px; margin: 0 0 8px; }
+.lesson a { color: #17603e; text-decoration: underline; }
+.lesson p { overflow-wrap: anywhere; }
+.lesson ol { padding-left: 20px; }
 * { box-sizing: border-box; }
 body { margin: 0; background: var(--bg); color: var(--ink); font-size: 14px; letter-spacing: 0; }
 button, input, select, textarea { font: inherit; letter-spacing: 0; }
